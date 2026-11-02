@@ -27,6 +27,7 @@ function allowedByReason(reason, ch) {
     case 'visiblePartA': return [x];
     case 'visiblePartB': return [y];
     case 'visiblePartC': return [c];
+    case 'unitsOfC': return c % 10 ? [c % 10] : [];
     case 'neighbourFact': return f === 'g*s=?' ? [(x - 1) * y, (x + 1) * y] : [calc((x - 1) * y, ch.ops[1], z), calc((x + 1) * y, ch.ops[1], z)];
     case 'addFactors': return [x + y];
     case 'divisorAsAnswer': return [y];

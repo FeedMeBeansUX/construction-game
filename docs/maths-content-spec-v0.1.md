@@ -20,7 +20,7 @@ Entry baseline: the player can add and subtract within 15. Level 1 is consolidat
 
 Each skill has two representations (objects + number line; groups + rows; share + groups). Levels are a content order, not a gate. The slice mission uses `missing.add.to20` and `missing.add.to30`.
 
-Engine interpretation (v0.1): in `missing.mixed.to30`, `unknownRange` is the hidden number and `knownRange` the other operand, except in `a − ? = c`, where `knownRange` applies to `c`.
+Decision (2 Nov 2026): in `missing.mixed.to30`, `unknownRange` is the hidden number and `knownRange` the other operand, except in `a − ? = c`, where `knownRange` applies to `c`.
 
 ## 2. Generator constraints
 - All operands, intermediates, answers and options are whole numbers in 0–30. No negatives. Division is exact.
@@ -30,7 +30,7 @@ Engine interpretation (v0.1): in `missing.mixed.to30`, `unknownRange` is the hid
 - Anti-repetition: no identical problem within the last 10 for that skill; same answer at most 2 times in a row.
 
 ## 3. Answer options and distractors
-Exactly 3 options: the answer plus 2 distractors, taken in priority order (per form, see JSON) from realistic errors: off by one, off by ten (only when crossing ten), wrong operation, visible number, neighbour fact, add the factors, divisor as answer, one step only.
+Exactly 3 options: the answer plus 2 distractors, taken in priority order (per form, see JSON) from realistic errors: off by one, off by ten (only when crossing ten), wrong operation, visible number, neighbour fact, add the factors, divisor as answer, one step only, units digit of c (missing addend: 22 + ? = 26 → 6).
 
 Filters: distinct, ≠ answer, within ±10, ≤ level ceiling (15 / 20 / 30); the answer is never the middle of an even run. If fewer than 2 survive, fall back to ans+2, +3 on the same side as an existing off-by-one. Options are shuffled.
 

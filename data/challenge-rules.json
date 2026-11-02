@@ -38,7 +38,7 @@
   "distractors": {
     "a+b=?": ["offByOne", "offByTen", "wrongOp", "operand"],
     "a-b=?": ["offByOne", "offByTen", "wrongOp", "operand"],
-    "a+?=c": ["offByOne", "offByTen", "visiblePartA", "visiblePartC"],
+    "a+?=c": ["offByOne", "offByTen", "visiblePartA", "visiblePartC", "unitsOfC"],
     "?+b=c": ["offByOne", "offByTen", "visiblePartB", "visiblePartC"],
     "a-?=c": ["offByOne", "offByTen", "visiblePartC", "wrongOp"],
     "?-b=c": ["offByOne", "wrongOp", "offByTen", "visiblePartC"],

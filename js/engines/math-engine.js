@@ -96,6 +96,7 @@ function candidates(reason, p, ans, rng) {
     case 'visiblePartA': return [x];
     case 'visiblePartB': return [y];
     case 'visiblePartC': return [c];
+    case 'unitsOfC': return c % 10 ? [c % 10] : []; // 22 + ? = 26 → 6 (reads the last digit)
     case 'neighbourFact':
       if (p.form === 'g*s=?') return rng.shuffle([(x - 1) * y, (x + 1) * y]);
       return rng.shuffle([apply((x - 1) * y, p.ops[1], z), apply((x + 1) * y, p.ops[1], z)]);
@@ -124,11 +125,23 @@ export function pickDistractors(p, ans, rules, rng) {
   const ok = v => Number.isInteger(v) && v >= g.valueRange[0] && v <= g.valueRange[1] && v <= ceiling
     && v !== ans && Math.abs(v - ans) <= g.maxDistractorDistance && !chosen.some(d => d.value === v)
     && !(g.forbidAnswerInMiddleOfEvenRun && isEvenRunMiddle(ans, [...chosen.map(d => d.value), v]));
+  // Realistic candidates in priority order (deduplicated, individually valid).
+  const pool = [];
   for (const reason of order) {
     for (const v of candidates(reason, p, ans, rng)) {
-      if (chosen.length < 2 && ok(v)) chosen.push({ value: v, reason });
+      if (ok(v) && !pool.some(d => d.value === v)) pool.push({ value: v, reason });
     }
   }
+  // Highest-priority pair that doesn't put the answer in the middle of an even run.
+  outer: for (let i = 0; i < pool.length; i++) {
+    for (let j = i + 1; j < pool.length; j++) {
+      if (!(g.forbidAnswerInMiddleOfEvenRun && isEvenRunMiddle(ans, [pool[i].value, pool[j].value]))) {
+        chosen.push(pool[i], pool[j]);
+        break outer;
+      }
+    }
+  }
+  if (!chosen.length && pool.length) chosen.push(pool[0]);
   if (chosen.length < 2) { // fallback, not error-based
     const side = chosen.some(d => d.value === ans + 1) ? [1] : chosen.some(d => d.value === ans - 1) ? [-1] : [1, -1];
     for (let k = 2; k <= g.maxDistractorDistance && chosen.length < 2; k++) {
