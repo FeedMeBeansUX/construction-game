@@ -1,6 +1,9 @@
 {
   "_meta": { "version": "0.1", "scope": "vertical slice", "placeholders": { "boss": "boss character name", "a": "bricks already in truck", "c": "bricks needed" } },
 
+  "game.title": "Bouwmeesters",
+  "orient.rotate": "Draai je tablet.",
+
   "char.boss.name": "Bram",
   "char.driver.name": "Sam",
 

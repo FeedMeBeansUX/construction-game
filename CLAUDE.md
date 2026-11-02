@@ -18,6 +18,7 @@ Dutch maths construction game for ages 4–6. Solo maker (UX designer, limited c
 ## Commands
 - `npm test` – unit tests (node:test, no deps).
 - `node scripts/sample.mjs [seed]` – print 20 generated problems.
+- `node scripts/e2e-flow.mjs [url]` – click through the whole slice in Chromium at iPad sizes (serve the repo first: `python3 -m http.server 8765`).
 - Serve locally: `npx serve .` or any static server (ES modules need http, not file://).
 
 ## Workflow

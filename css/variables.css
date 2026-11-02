@@ -1,0 +1,32 @@
+/* Design tokens – style tile v0.1 (tools/asset-src/tokens.mjs) */
+:root {
+  --yellow: #F5C542;
+  --orange: #ED873A;
+  --sky: #55B9E8;
+  --green: #65B96B;
+  --sand: #F4E8D0;
+  --charcoal: #30343B;
+  --concrete: #A9B0B5;
+  --white: #FFFFFF;
+  --sand-light: #FFF7E6;
+  --brick: #C8754B;
+
+  --font: 'Nunito', 'Nunito Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --fs-instruction: 36px;
+  --fs-button: 30px;
+  --fs-bubble: 30px;
+  --fs-title: 88px;
+
+  /* design px on the 1280×800 stage; the stage scales ≥ 0.8 on a 1024×768 iPad,
+     so 84 → 67 css px (≥ 64) and 120 → 96 css px (≥ 96) */
+  --btn-h: 84px;
+  --tile: 120px;
+  --stroke: 5px;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('../assets/fonts/Nunito-Variable.woff2') format('woff2');
+  font-weight: 200 1000;
+  font-display: swap;
+}

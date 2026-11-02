@@ -1,0 +1,55 @@
+/* Buttons: icon + word, pill, ≥ 64 css px at the smallest stage scale */
+.btn {
+  display: inline-flex; align-items: center; gap: 16px;
+  height: var(--btn-h); padding: 0 40px 0 30px;
+  border: var(--stroke) solid var(--charcoal); border-radius: 999px;
+  font-size: var(--fs-button); font-weight: 800; line-height: 1;
+  cursor: pointer; position: absolute;
+  box-shadow: inset 0 -8px 0 rgb(48 52 59 / .12);
+  transition: transform .08s ease;
+}
+.btn:active { transform: translateY(3px) scale(.98); }
+.btn .icon { width: 44px; height: 44px; flex: none; color: var(--charcoal); }
+.btn--primary { background: var(--yellow); }
+.btn--confirm { background: var(--green); }
+.btn--secondary { background: var(--white); }
+.btn--home { left: 16px; top: 12px; }
+.btn:focus-visible { outline: 6px solid var(--sky); outline-offset: 4px; }
+
+/* Instruction line – one sentence, top band */
+.instruction {
+  position: absolute; left: 50%; top: 14px; transform: translateX(-50%);
+  max-width: 860px; min-height: 64px; padding: 10px 36px;
+  background: var(--white); border: 4px solid var(--charcoal); border-radius: 999px;
+  font-size: var(--fs-instruction); font-weight: 800; text-align: center; white-space: nowrap;
+}
+
+/* Speech bubble */
+.bubble {
+  position: absolute; padding: 22px 32px; background: var(--white);
+  border: var(--stroke) solid var(--charcoal); border-radius: 24px;
+  font-size: var(--fs-bubble); font-weight: 700; max-width: 520px;
+}
+.bubble::after { /* tail */
+  content: ''; position: absolute; left: 48px; bottom: -30px; width: 36px; height: 30px;
+  background: var(--white); border-left: var(--stroke) solid var(--charcoal); border-bottom: var(--stroke) solid var(--charcoal);
+  transform: skewX(35deg); transform-origin: top left;
+}
+
+/* Answer tiles (used from step 4) */
+.tile {
+  width: var(--tile); height: var(--tile); border: var(--stroke) solid var(--charcoal); border-radius: 22px;
+  background: var(--white); font-size: 64px; font-weight: 900; cursor: pointer;
+  box-shadow: inset 0 -9px 0 rgb(48 52 59 / .12);
+}
+
+/* Scene */
+.scene { transition: filter .3s ease; }
+.scene--dim { filter: brightness(.75) saturate(.8); }
+#truck-mover.tappable { cursor: pointer; }
+.character { display: block; position: absolute; }
+
+/* Dev-only controls (removed in step 4+) */
+.dev-panel { position: absolute; right: 16px; bottom: 16px; display: flex; gap: 12px; padding: 12px;
+  border: 3px dashed var(--charcoal); border-radius: 16px; background: rgb(255 255 255 / .85); font: 600 18px system-ui; }
+.dev-panel button { font: 700 20px system-ui; padding: 14px 18px; border-radius: 12px; border: 3px solid var(--charcoal); background: var(--white); min-height: 64px; }

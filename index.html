@@ -2,16 +2,23 @@
 <html lang="nl">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <meta name="theme-color" content="#F5C542">
+  <meta name="apple-mobile-web-app-capable" content="yes">
   <title>Bouwmeesters</title>
-  <style>
-    html, body { margin: 0; height: 100%; background: #F4E8D0; color: #30343B;
-      font-family: Nunito, system-ui, sans-serif; }
-    main { height: 100%; display: grid; place-items: center; text-align: center; }
-    h1 { font-size: 64px; font-weight: 900; margin: 0; }
-  </style>
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/screens.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <script type="module" src="js/main.js"></script>
 </head>
 <body>
-  <main><h1>Bouwmeesters</h1></main>
+  <div id="stage">
+    <div id="scene-layer"></div>
+    <div id="ui-layer"></div>
+    <div id="boot" class="boot">…</div>
+  </div>
+  <div id="rotate-hint"></div>
 </body>
 </html>
