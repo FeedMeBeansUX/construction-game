@@ -1,0 +1,87 @@
+{
+  "version": "0.1",
+  "notes": "Thresholds are hypotheses to tune in Phase 4 and Phase 8. Ranges are inclusive [min, max].",
+  "global": {
+    "valueRange": [0, 30],
+    "answerOptions": 3,
+    "noRepeatWindow": 10,
+    "maxSameAnswerInRow": 2,
+    "maxDistractorDistance": 10,
+    "offByTenOnlyWhenCrossingTen": true,
+    "levelCeiling": { "1": 15, "2": 20, "3": 30, "4": 30, "5": 30, "6": 30 },
+    "forbidAnswerInMiddleOfEvenRun": true,
+    "fallback": "If realistic errors give fewer than 2 valid distractors: continue on the same side as an existing off-by-one (ans+2, ans+3…), else ans±2, ±3…"
+  },
+  "supportLevels": ["objects", "objects-numerals", "numerals", "equation"],
+  "answerModeBySupport": {
+    "objects": "manipulate-then-select",
+    "objects-numerals": "manipulate-then-select",
+    "numerals": "select",
+    "equation": "select"
+  },
+  "skills": {
+    "add.within15": { "level": 1, "form": "a+b=?", "a": [1, 14], "b": [1, 14], "result": [2, 15], "startSupport": "numerals", "representations": ["objects", "number-line"] },
+    "sub.within15": { "level": 1, "form": "a-b=?", "a": [2, 15], "b": [1, 14], "result": [1, 14], "startSupport": "numerals", "representations": ["objects", "number-line"] },
+    "add.to20": { "level": 2, "form": "a+b=?", "a": [2, 18], "b": [2, 9], "result": [16, 20], "crossingTenRatio": 0.5, "startSupport": "objects-numerals", "representations": ["objects", "number-line"] },
+    "sub.to20": { "level": 2, "form": "a-b=?", "a": [16, 20], "b": [2, 9], "result": [7, 18], "crossingTenRatio": 0.5, "startSupport": "objects-numerals", "representations": ["objects", "number-line"] },
+    "missing.add.to20": { "level": 2, "form": "a+?=c", "a": [5, 18], "b": [3, 9], "result": [11, 20], "crossingTenRatio": 0.5, "startSupport": "objects", "representations": ["objects", "number-line"] },
+    "add.to30": { "level": 3, "form": "a+b=?", "a": [10, 28], "b": [2, 9], "result": [21, 30], "crossingTenRatio": 0.5, "startSupport": "objects-numerals", "representations": ["objects", "number-line"] },
+    "sub.to30": { "level": 3, "form": "a-b=?", "a": [21, 30], "b": [2, 9], "result": [12, 28], "crossingTenRatio": 0.5, "startSupport": "objects-numerals", "representations": ["objects", "number-line"] },
+    "missing.add.to30": { "level": 3, "form": "a+?=c", "a": [10, 28], "b": [4, 10], "result": [21, 30], "crossingTenRatio": 0.6, "startSupport": "objects", "representations": ["objects", "number-line"] },
+    "missing.mixed.to30": { "level": 3, "forms": ["?+b=c", "a-?=c", "?-b=c"], "unknownRange": [3, 20], "knownRange": [3, 10], "result": [2, 30], "startSupport": "objects", "representations": ["objects", "number-line"] },
+    "mul.groups": { "level": 4, "form": "g*s=?", "groups": [2, 5], "size": [2, 6], "result": [4, 30], "startSupport": "objects", "representations": ["groups", "rows"] },
+    "div.share": { "level": 5, "form": "n/k=?", "divisor": [2, 5], "quotient": [1, 6], "dividend": [4, 30], "exactOnly": true, "startSupport": "objects", "representations": ["share", "groups"] },
+    "div.group": { "level": 5, "form": "n/s=?", "groupSize": [2, 5], "quotient": [2, 6], "dividend": [4, 30], "exactOnly": true, "startSupport": "objects", "representations": ["groups", "rows"] },
+    "multi.addsub": { "level": 6, "form": "a±b±c=?", "a": [5, 30], "b": [2, 9], "c": [2, 9], "intermediate": [0, 30], "result": [1, 30], "startSupport": "objects-numerals", "representations": ["objects", "number-line"] },
+    "multi.mulAddSub": { "level": 6, "form": "g*s±d=?", "groups": [2, 4], "size": [2, 5], "product": [4, 20], "d": [1, 9], "result": [1, 30], "startSupport": "objects", "representations": ["groups", "rows"] }
+  },
+  "distractors": {
+    "a+b=?": ["offByOne", "offByTen", "wrongOp", "operand"],
+    "a-b=?": ["offByOne", "offByTen", "wrongOp", "operand"],
+    "a+?=c": ["offByOne", "offByTen", "visiblePartA", "visiblePartC"],
+    "?+b=c": ["offByOne", "offByTen", "visiblePartB", "visiblePartC"],
+    "a-?=c": ["offByOne", "offByTen", "visiblePartC", "wrongOp"],
+    "?-b=c": ["offByOne", "wrongOp", "offByTen", "visiblePartC"],
+    "g*s=?": ["neighbourFact", "addFactors", "offByOne", "operand"],
+    "n/k=?": ["offByOne", "divisorAsAnswer", "offByTwo"],
+    "n/s=?": ["offByOne", "divisorAsAnswer", "offByTwo"],
+    "a±b±c=?": ["oneStepOnly", "offByOne", "wrongOpLastStep", "offByTen"],
+    "g*s±d=?": ["oneStepOnly", "neighbourFact", "offByOne", "wrongOpLastStep"]
+  },
+  "placement": {
+    "maxItems": 6,
+    "firstTryOnly": true,
+    "items": [
+      { "skill": "add.to20", "support": "numerals", "probe": "9+7" },
+      { "skill": "sub.to20", "support": "numerals", "probe": "17-9" },
+      { "skill": "missing.add.to20", "support": "objects-numerals", "probe": "14+?=20" },
+      { "skill": "add.to30", "support": "numerals", "probe": "18+7" },
+      { "skill": "mul.groups", "support": "objects", "probe": "3*4" },
+      { "skill": "div.share", "support": "objects", "probe": "12/3" }
+    ],
+    "onCorrect": "start the skill one support level below the probe's support level; unlock the next level of that strand",
+    "onIncorrect": "keep skill at its startSupport; strand starts at the previous level",
+    "stopRule": "skip mul/div probes if items 1-4 had 0 or 1 correct"
+  },
+  "adaptive": {
+    "windowSize": 8,
+    "metric": "firstTryCorrect, hintsUsed <= 1",
+    "lessSupport": { "minAttempts": 6, "minRatio": 0.85 },
+    "maintain": { "minRatio": 0.6 },
+    "moreSupport": { "minAttempts": 4, "maxRatio": 0.4 },
+    "easierEquivalent": "after the last hint step: same form, lower band (to30 -> to20), or one support level up",
+    "mastery": { "supportAtLeastAbstract": "numerals", "minRepresentations": 2, "rule": "lessSupport criteria met at numerals or equation in 2 representations" },
+    "revisitAfterDays": 7
+  },
+  "hintLadder": {
+    "slice.materialenwagen": [
+      { "step": 1, "trigger": "idle 10s or wrong #1", "action": "pulse instruction line, highlight truck", "copy": "hint.look" },
+      { "step": 2, "trigger": "wrong #2", "action": "outline row up to next ten, show badge numbers", "copy": "hint.fillRow" },
+      { "step": 3, "trigger": "wrong #3", "action": "partial demo: boss loads up to next ten, then retry", "copy": ["hint.demo", "hint.yourTurn"] },
+      { "step": 4, "trigger": "wrong #4", "action": "easier equivalent", "copy": "hint.easier" }
+    ]
+  },
+  "missions": {
+    "slice.materialenwagen": { "loads": 3, "skills": ["missing.add.to20", "missing.add.to30"], "checkpoint": "after each load" }
+  }
+}

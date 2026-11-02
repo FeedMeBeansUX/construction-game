@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 344" width="700" height="344">
+  <title>Bouwmeesters – Sam (poses v0.1)</title>
+  <g transform="translate(0 0)"><g id="sam-idle">
+    <g id="sam-idle-legs">
+      <rect x="74" y="282" width="30" height="40" fill="#65B96B" stroke="#30343B" stroke-width="4"/><rect x="116" y="282" width="30" height="40" fill="#65B96B" stroke="#30343B" stroke-width="4"/>
+      <ellipse cx="88" cy="328" rx="22" ry="12" fill="#30343B"/><ellipse cx="132" cy="328" rx="22" ry="12" fill="#30343B"/>
+    </g>
+    <g id="sam-idle-body">
+      <path d="M62 216 Q62 192 86 190 H134 Q158 192 158 216 V288 H62 Z" fill="#F5C542" stroke="#30343B" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M72 230 H148 V288 H72 Z" fill="#65B96B" stroke="#30343B" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M78 192 L82 232 M142 192 L138 232" stroke="#65B96B" stroke-width="10" stroke-linecap="round"/>
+      <rect x="96" y="244" width="28" height="20" rx="4" fill="none" stroke="#30343B" stroke-width="4"/>
+    </g>
+    <g id="sam-idle-arm-left"><path d="M62 206 Q46 236 46 270" fill="none" stroke="#30343B" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/><path d="M62 206 Q46 236 46 270" fill="none" stroke="#F5C542" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/><circle cx="46" cy="274" r="15" fill="#9A6440" stroke="#30343B" stroke-width="5"/></g>
+    <g id="sam-idle-wrench" transform="rotate(-20 46 274)">
+      <rect x="40" y="270" width="12" height="46" rx="5" fill="#A9B0B5" stroke="#30343B" stroke-width="4"/>
+      <path d="M32 314 a14 14 0 1 0 28 0 l-6 0 l0 8 l-16 0 l0 -8 z" fill="#A9B0B5" stroke="#30343B" stroke-width="4" stroke-linejoin="round"/></g>
+    <g id="sam-idle-arm-right"><path d="M158 206 Q174 236 174 270" fill="none" stroke="#30343B" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/><path d="M158 206 Q174 236 174 270" fill="none" stroke="#F5C542" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/><circle cx="174" cy="274" r="15" fill="#9A6440" stroke="#30343B" stroke-width="5"/></g>
+    <g id="sam-idle-head">
+      <path d="M56 116 q-8 14 2 26 q-10 10 0 22 M164 116 q8 14 -2 26 q10 10 0 22" fill="none" stroke="#2E2420" stroke-width="12" stroke-linecap="round"/>
+      <circle cx="110" cy="134" r="56" fill="#9A6440" stroke="#30343B" stroke-width="5"/>
+      <ellipse cx="74" cy="146" rx="10" ry="6" fill="#E8907A" fill-opacity="0.55"/><ellipse cx="146" cy="146" rx="10" ry="6" fill="#E8907A" fill-opacity="0.55"/><ellipse cx="90" cy="126" rx="7" ry="9" fill="#30343B"/><ellipse cx="130" cy="126" rx="7" ry="9" fill="#30343B"/>
+       <circle cx="92" cy="122" r="2.5" fill="#FFFFFF"/><circle cx="132" cy="122" r="2.5" fill="#FFFFFF"/><path d="M78 108 Q90 101 102 107 M118 107 Q130 101 142 108" fill="none" stroke="#2E2420" stroke-width="6" stroke-linecap="round"/><path d="M96 152 Q110 164 124 152" fill="none" stroke="#30343B" stroke-width="5" stroke-linecap="round"/>
+      <g id="sam-idle-helmet">
+  <path d="M50 112 Q50 52 110 52 Q170 52 170 112 Z" fill="#F5C542" stroke="#30343B" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M110 54 V108" stroke="#30343B" stroke-opacity="0.25" stroke-width="8" stroke-linecap="round"/>
+  <rect x="40" y="104" width="140" height="16" rx="8" fill="#F5C542" stroke="#30343B" stroke-width="5"/><rect x="38" y="112" width="22" height="40" rx="10" fill="#ED873A" stroke="#30343B" stroke-width="4"/><rect x="160" y="112" width="22" height="40" rx="10" fill="#ED873A" stroke="#30343B" stroke-width="4"/></g>
+    </g>
+  </g></g>
+  <g transform="translate(240 0)"><g id="sam-wave">
+    <g id="sam-wave-legs">
+      <rect x="74" y="282" width="30" height="40" fill="#65B96B" stroke="#30343B" stroke-width="4"/><rect x="116" y="282" width="30" height="40" fill="#65B96B" stroke="#30343B" stroke-width="4"/>
+      <ellipse cx="88" cy="328" rx="22" ry="12" fill="#30343B"/><ellipse cx="132" cy="328" rx="22" ry="12" fill="#30343B"/>
+    </g>
+    <g id="sam-wave-body">
+      <path d="M62 216 Q62 192 86 190 H134 Q158 192 158 216 V288 H62 Z" fill="#F5C542" stroke="#30343B" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M72 230 H148 V288 H72 Z" fill="#65B96B" stroke="#30343B" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M78 192 L82 232 M142 192 L138 232" stroke="#65B96B" stroke-width="10" stroke-linecap="round"/>
+      <rect x="96" y="244" width="28" height="20" rx="4" fill="none" stroke="#30343B" stroke-width="4"/>
+    </g>
+    <g id="sam-wave-arm-left"><path d="M62 206 Q46 236 46 270" fill="none" stroke="#30343B" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/><path d="M62 206 Q46 236 46 270" fill="none" stroke="#F5C542" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/><circle cx="46" cy="274" r="15" fill="#9A6440" stroke="#30343B" stroke-width="5"/></g>
+    <g id="sam-wave-wrench" transform="rotate(-20 46 274)">
+      <rect x="40" y="270" width="12" height="46" rx="5" fill="#A9B0B5" stroke="#30343B" stroke-width="4"/>
+      <path d="M32 314 a14 14 0 1 0 28 0 l-6 0 l0 8 l-16 0 l0 -8 z" fill="#A9B0B5" stroke="#30343B" stroke-width="4" stroke-linejoin="round"/></g>
+    <g id="sam-wave-arm-right"><path d="M158 206 Q196 186 200 130" fill="none" stroke="#30343B" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/><path d="M158 206 Q196 186 200 130" fill="none" stroke="#F5C542" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/><circle cx="201" cy="124" r="15" fill="#9A6440" stroke="#30343B" stroke-width="5"/></g>
+    <g id="sam-wave-head">
+      <path d="M56 116 q-8 14 2 26 q-10 10 0 22 M164 116 q8 14 -2 26 q10 10 0 22" fill="none" stroke="#2E2420" stroke-width="12" stroke-linecap="round"/>
+      <circle cx="110" cy="134" r="56" fill="#9A6440" stroke="#30343B" stroke-width="5"/>
+      <ellipse cx="74" cy="146" rx="10" ry="6" fill="#E8907A" fill-opacity="0.55"/><ellipse cx="146" cy="146" rx="10" ry="6" fill="#E8907A" fill-opacity="0.55"/><ellipse cx="90" cy="126" rx="7" ry="9" fill="#30343B"/><ellipse cx="130" cy="126" rx="7" ry="9" fill="#30343B"/>
+       <circle cx="92" cy="122" r="2.5" fill="#FFFFFF"/><circle cx="132" cy="122" r="2.5" fill="#FFFFFF"/><path d="M78 108 Q90 101 102 107 M118 107 Q130 101 142 108" fill="none" stroke="#2E2420" stroke-width="6" stroke-linecap="round"/><path d="M96 152 Q110 164 124 152" fill="none" stroke="#30343B" stroke-width="5" stroke-linecap="round"/>
+      <g id="sam-wave-helmet">
+  <path d="M50 112 Q50 52 110 52 Q170 52 170 112 Z" fill="#F5C542" stroke="#30343B" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M110 54 V108" stroke="#30343B" stroke-opacity="0.25" stroke-width="8" stroke-linecap="round"/>
+  <rect x="40" y="104" width="140" height="16" rx="8" fill="#F5C542" stroke="#30343B" stroke-width="5"/><rect x="38" y="112" width="22" height="40" rx="10" fill="#ED873A" stroke="#30343B" stroke-width="4"/><rect x="160" y="112" width="22" height="40" rx="10" fill="#ED873A" stroke="#30343B" stroke-width="4"/></g>
+    </g>
+  </g></g>
+  <g transform="translate(480 0)"><g id="sam-cheer">
+    <g id="sam-cheer-legs">
+      <rect x="74" y="282" width="30" height="40" fill="#65B96B" stroke="#30343B" stroke-width="4"/><rect x="116" y="282" width="30" height="40" fill="#65B96B" stroke="#30343B" stroke-width="4"/>
+      <ellipse cx="88" cy="328" rx="22" ry="12" fill="#30343B"/><ellipse cx="132" cy="328" rx="22" ry="12" fill="#30343B"/>
+    </g>
+    <g id="sam-cheer-body">
+      <path d="M62 216 Q62 192 86 190 H134 Q158 192 158 216 V288 H62 Z" fill="#F5C542" stroke="#30343B" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M72 230 H148 V288 H72 Z" fill="#65B96B" stroke="#30343B" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M78 192 L82 232 M142 192 L138 232" stroke="#65B96B" stroke-width="10" stroke-linecap="round"/>
+      <rect x="96" y="244" width="28" height="20" rx="4" fill="none" stroke="#30343B" stroke-width="4"/>
+    </g>
+    <g id="sam-cheer-arm-left"><path d="M62 206 Q30 180 24 128" fill="none" stroke="#30343B" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/><path d="M62 206 Q30 180 24 128" fill="none" stroke="#F5C542" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/><circle cx="23" cy="122" r="15" fill="#9A6440" stroke="#30343B" stroke-width="5"/></g>
+    
+    <g id="sam-cheer-arm-right"><path d="M158 206 Q190 180 196 128" fill="none" stroke="#30343B" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/><path d="M158 206 Q190 180 196 128" fill="none" stroke="#F5C542" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/><circle cx="197" cy="122" r="15" fill="#9A6440" stroke="#30343B" stroke-width="5"/></g>
+    <g id="sam-cheer-head">
+      <path d="M56 116 q-8 14 2 26 q-10 10 0 22 M164 116 q8 14 -2 26 q10 10 0 22" fill="none" stroke="#2E2420" stroke-width="12" stroke-linecap="round"/>
+      <circle cx="110" cy="134" r="56" fill="#9A6440" stroke="#30343B" stroke-width="5"/>
+      <ellipse cx="74" cy="146" rx="10" ry="6" fill="#E8907A" fill-opacity="0.55"/><ellipse cx="146" cy="146" rx="10" ry="6" fill="#E8907A" fill-opacity="0.55"/><path d="M80 128 Q90 116 100 128 M120 128 Q130 116 140 128" fill="none" stroke="#30343B" stroke-width="6" stroke-linecap="round"/><path d="M78 108 Q90 101 102 107 M118 107 Q130 101 142 108" fill="none" stroke="#2E2420" stroke-width="6" stroke-linecap="round"/><path d="M94 150 Q110 174 126 150 Z" fill="#30343B"/><path d="M101 160 Q110 166 119 160" fill="none" stroke="#E8907A" stroke-width="4" stroke-linecap="round"/>
+      <g id="sam-cheer-helmet">
+  <path d="M50 112 Q50 52 110 52 Q170 52 170 112 Z" fill="#F5C542" stroke="#30343B" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M110 54 V108" stroke="#30343B" stroke-opacity="0.25" stroke-width="8" stroke-linecap="round"/>
+  <rect x="40" y="104" width="140" height="16" rx="8" fill="#F5C542" stroke="#30343B" stroke-width="5"/><rect x="38" y="112" width="22" height="40" rx="10" fill="#ED873A" stroke="#30343B" stroke-width="4"/><rect x="160" y="112" width="22" height="40" rx="10" fill="#ED873A" stroke="#30343B" stroke-width="4"/></g>
+    </g>
+  </g></g>
+</svg>

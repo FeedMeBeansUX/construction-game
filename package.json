@@ -1,0 +1,10 @@
+{
+  "name": "bouwmeesters",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Dutch maths construction game for ages 4-6",
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  }
+}

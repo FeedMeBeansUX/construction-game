@@ -1,0 +1,54 @@
+{
+  "_meta": { "version": "0.1", "scope": "vertical slice", "placeholders": { "boss": "boss character name", "a": "bricks already in truck", "c": "bricks needed" } },
+
+  "char.boss.name": "Bram",
+  "char.driver.name": "Sam",
+
+  "btn.play": "Spelen",
+  "btn.continue": "Verder spelen",
+  "btn.go": "Aan de slag!",
+  "btn.done": "Klaar",
+  "btn.back": "Terug",
+  "btn.next": "Verder",
+  "btn.stop": "Stoppen",
+  "btn.home": "Huis",
+
+  "start.welcomeBack": "Welkom terug!",
+
+  "placement.intro": "Wat kun jij al?",
+  "placement.next": "En nu deze!",
+  "placement.end": "Top, we gaan bouwen!",
+
+  "location.pickJob": "Tik op de wagen.",
+
+  "briefing.hello": "Hoi, ik ben {boss}!",
+  "briefing.task": "We bouwen een muur.",
+  "briefing.need": "We hebben {c} stenen nodig.",
+
+  "game.instr.load": "Maak de wagen vol.",
+  "game.instr.howManyAdded": "Hoeveel stenen deed je erbij?",
+  "game.instr.howManyMore": "Hoeveel stenen moeten er nog bij?",
+
+  "feedback.correct.1": "Goed zo!",
+  "feedback.correct.2": "Ja, dat klopt!",
+  "feedback.correct.3": "Top gedaan!",
+  "feedback.notFull": "Er kan nog meer in.",
+  "feedback.tooMany": "Oei, dat past niet.",
+  "feedback.lookAgain": "Kijk nog eens goed.",
+
+  "hint.look": "Kijk naar de wagen.",
+  "hint.fillRow": "Maak eerst de rij vol.",
+  "hint.demo": "Kijk, ik help je even.",
+  "hint.yourTurn": "Nu jij!",
+  "hint.easier": "Probeer deze eens.",
+
+  "anim.drive": "De wagen gaat rijden!",
+  "anim.wall": "Kijk, de muur wordt hoger!",
+
+  "complete.title": "Goed gewerkt!",
+  "complete.wall": "De muur is weer af!",
+  "complete.next": "Op naar de volgende klus!",
+
+  "session.lunch": "De ploeg gaat lunchen!",
+  "session.stopAsk": "Wil je stoppen?"
+}

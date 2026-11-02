@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 344" width="700" height="344">
+  <title>Bouwmeesters – Bram (poses v0.1)</title>
+  <g transform="translate(0 0)"><g id="bram-idle">
+    <g id="bram-idle-legs">
+      <rect x="72" y="282" width="32" height="40" fill="#30343B"/><rect x="116" y="282" width="32" height="40" fill="#30343B"/>
+      <ellipse cx="86" cy="328" rx="24" ry="12" fill="#5A3D2B" stroke="#30343B" stroke-width="4"/><ellipse cx="134" cy="328" rx="24" ry="12" fill="#5A3D2B" stroke="#30343B" stroke-width="4"/>
+    </g>
+    <g id="bram-idle-body">
+      <path d="M58 214 Q58 190 84 188 H136 Q162 190 162 214 V286 H58 Z" fill="#30343B" stroke="#30343B" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M60 214 Q60 192 84 190 H100 L100 284 H60 Z" fill="#ED873A"/>
+      <path d="M160 214 Q160 192 136 190 H120 L120 284 H160 Z" fill="#ED873A"/>
+      <path d="M60 240 H100 M120 240 H160 M60 264 H100 M120 264 H160" stroke="#FFF7E6" stroke-width="7"/>
+      <path d="M58 214 Q58 190 84 188 H136 Q162 190 162 214 V286 H58 Z" fill="none" stroke="#30343B" stroke-width="5" stroke-linejoin="round"/>
+    </g>
+    <g id="bram-idle-arm-left"><path d="M62 206 Q46 236 46 270" fill="none" stroke="#30343B" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/><path d="M62 206 Q46 236 46 270" fill="none" stroke="#ED873A" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/><circle cx="46" cy="274" r="15" fill="#F0C29A" stroke="#30343B" stroke-width="5"/></g>
+    <g id="bram-idle-clipboard">
+      <rect x="20" y="220" width="44" height="58" rx="6" fill="#FFF7E6" stroke="#30343B" stroke-width="4"/>
+      <rect x="32" y="214" width="20" height="10" rx="3" fill="#A9B0B5" stroke="#30343B" stroke-width="3"/>
+      <path d="M28 238 h28 M28 250 h20" stroke="#30343B" stroke-width="3" stroke-linecap="round"/></g>
+    <g id="bram-idle-arm-right"><path d="M158 206 Q174 236 174 270" fill="none" stroke="#30343B" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/><path d="M158 206 Q174 236 174 270" fill="none" stroke="#ED873A" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/><circle cx="174" cy="274" r="15" fill="#F0C29A" stroke="#30343B" stroke-width="5"/></g>
+    <g id="bram-idle-head">
+      <circle cx="110" cy="134" r="58" fill="#F0C29A" stroke="#30343B" stroke-width="5"/>
+      <path id="bram-idle-beard" d="M53 142 Q66 178 94 172 Q110 180 126 172 Q154 178 167 142 Q166 200 110 202 Q54 200 53 142 Z" fill="#7A4E2D" stroke="#30343B" stroke-width="5" stroke-linejoin="round"/>
+      <ellipse cx="74" cy="146" rx="10" ry="6" fill="#E8907A" fill-opacity="0.55"/><ellipse cx="146" cy="146" rx="10" ry="6" fill="#E8907A" fill-opacity="0.55"/><ellipse cx="90" cy="126" rx="7" ry="9" fill="#30343B"/><ellipse cx="130" cy="126" rx="7" ry="9" fill="#30343B"/>
+       <circle cx="92" cy="122" r="2.5" fill="#FFFFFF"/><circle cx="132" cy="122" r="2.5" fill="#FFFFFF"/><path d="M78 108 Q90 101 102 107 M118 107 Q130 101 142 108" fill="none" stroke="#7A4E2D" stroke-width="6" stroke-linecap="round"/><path d="M96 152 Q110 164 124 152" fill="none" stroke="#30343B" stroke-width="5" stroke-linecap="round"/>
+      <ellipse cx="110" cy="141" rx="9" ry="7" fill="#E8907A" stroke="#30343B" stroke-width="3"/>
+      <g id="bram-idle-helmet">
+  <path d="M50 112 Q50 52 110 52 Q170 52 170 112 Z" fill="#FFFFFF" stroke="#30343B" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M110 54 V108" stroke="#30343B" stroke-opacity="0.25" stroke-width="8" stroke-linecap="round"/>
+  <rect x="40" y="104" width="140" height="16" rx="8" fill="#FFFFFF" stroke="#30343B" stroke-width="5"/><rect x="98" y="68" width="24" height="12" rx="4" fill="#ED873A"/></g>
+    </g>
+  </g></g>
+  <g transform="translate(240 0)"><g id="bram-wave">
+    <g id="bram-wave-legs">
+      <rect x="72" y="282" width="32" height="40" fill="#30343B"/><rect x="116" y="282" width="32" height="40" fill="#30343B"/>
+      <ellipse cx="86" cy="328" rx="24" ry="12" fill="#5A3D2B" stroke="#30343B" stroke-width="4"/><ellipse cx="134" cy="328" rx="24" ry="12" fill="#5A3D2B" stroke="#30343B" stroke-width="4"/>
+    </g>
+    <g id="bram-wave-body">
+      <path d="M58 214 Q58 190 84 188 H136 Q162 190 162 214 V286 H58 Z" fill="#30343B" stroke="#30343B" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M60 214 Q60 192 84 190 H100 L100 284 H60 Z" fill="#ED873A"/>
+      <path d="M160 214 Q160 192 136 190 H120 L120 284 H160 Z" fill="#ED873A"/>
+      <path d="M60 240 H100 M120 240 H160 M60 264 H100 M120 264 H160" stroke="#FFF7E6" stroke-width="7"/>
+      <path d="M58 214 Q58 190 84 188 H136 Q162 190 162 214 V286 H58 Z" fill="none" stroke="#30343B" stroke-width="5" stroke-linejoin="round"/>
+    </g>
+    <g id="bram-wave-arm-left"><path d="M62 206 Q46 236 46 270" fill="none" stroke="#30343B" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/><path d="M62 206 Q46 236 46 270" fill="none" stroke="#ED873A" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/><circle cx="46" cy="274" r="15" fill="#F0C29A" stroke="#30343B" stroke-width="5"/></g>
+    <g id="bram-wave-clipboard">
+      <rect x="20" y="220" width="44" height="58" rx="6" fill="#FFF7E6" stroke="#30343B" stroke-width="4"/>
+      <rect x="32" y="214" width="20" height="10" rx="3" fill="#A9B0B5" stroke="#30343B" stroke-width="3"/>
+      <path d="M28 238 h28 M28 250 h20" stroke="#30343B" stroke-width="3" stroke-linecap="round"/></g>
+    <g id="bram-wave-arm-right"><path d="M158 206 Q196 186 200 130" fill="none" stroke="#30343B" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/><path d="M158 206 Q196 186 200 130" fill="none" stroke="#ED873A" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/><circle cx="201" cy="124" r="15" fill="#F0C29A" stroke="#30343B" stroke-width="5"/></g>
+    <g id="bram-wave-head">
+      <circle cx="110" cy="134" r="58" fill="#F0C29A" stroke="#30343B" stroke-width="5"/>
+      <path id="bram-wave-beard" d="M53 142 Q66 178 94 172 Q110 180 126 172 Q154 178 167 142 Q166 200 110 202 Q54 200 53 142 Z" fill="#7A4E2D" stroke="#30343B" stroke-width="5" stroke-linejoin="round"/>
+      <ellipse cx="74" cy="146" rx="10" ry="6" fill="#E8907A" fill-opacity="0.55"/><ellipse cx="146" cy="146" rx="10" ry="6" fill="#E8907A" fill-opacity="0.55"/><ellipse cx="90" cy="126" rx="7" ry="9" fill="#30343B"/><ellipse cx="130" cy="126" rx="7" ry="9" fill="#30343B"/>
+       <circle cx="92" cy="122" r="2.5" fill="#FFFFFF"/><circle cx="132" cy="122" r="2.5" fill="#FFFFFF"/><path d="M78 108 Q90 101 102 107 M118 107 Q130 101 142 108" fill="none" stroke="#7A4E2D" stroke-width="6" stroke-linecap="round"/><path d="M96 152 Q110 164 124 152" fill="none" stroke="#30343B" stroke-width="5" stroke-linecap="round"/>
+      <ellipse cx="110" cy="141" rx="9" ry="7" fill="#E8907A" stroke="#30343B" stroke-width="3"/>
+      <g id="bram-wave-helmet">
+  <path d="M50 112 Q50 52 110 52 Q170 52 170 112 Z" fill="#FFFFFF" stroke="#30343B" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M110 54 V108" stroke="#30343B" stroke-opacity="0.25" stroke-width="8" stroke-linecap="round"/>
+  <rect x="40" y="104" width="140" height="16" rx="8" fill="#FFFFFF" stroke="#30343B" stroke-width="5"/><rect x="98" y="68" width="24" height="12" rx="4" fill="#ED873A"/></g>
+    </g>
+  </g></g>
+  <g transform="translate(480 0)"><g id="bram-cheer">
+    <g id="bram-cheer-legs">
+      <rect x="72" y="282" width="32" height="40" fill="#30343B"/><rect x="116" y="282" width="32" height="40" fill="#30343B"/>
+      <ellipse cx="86" cy="328" rx="24" ry="12" fill="#5A3D2B" stroke="#30343B" stroke-width="4"/><ellipse cx="134" cy="328" rx="24" ry="12" fill="#5A3D2B" stroke="#30343B" stroke-width="4"/>
+    </g>
+    <g id="bram-cheer-body">
+      <path d="M58 214 Q58 190 84 188 H136 Q162 190 162 214 V286 H58 Z" fill="#30343B" stroke="#30343B" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M60 214 Q60 192 84 190 H100 L100 284 H60 Z" fill="#ED873A"/>
+      <path d="M160 214 Q160 192 136 190 H120 L120 284 H160 Z" fill="#ED873A"/>
+      <path d="M60 240 H100 M120 240 H160 M60 264 H100 M120 264 H160" stroke="#FFF7E6" stroke-width="7"/>
+      <path d="M58 214 Q58 190 84 188 H136 Q162 190 162 214 V286 H58 Z" fill="none" stroke="#30343B" stroke-width="5" stroke-linejoin="round"/>
+    </g>
+    <g id="bram-cheer-arm-left"><path d="M62 206 Q30 180 24 128" fill="none" stroke="#30343B" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/><path d="M62 206 Q30 180 24 128" fill="none" stroke="#ED873A" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/><circle cx="23" cy="122" r="15" fill="#F0C29A" stroke="#30343B" stroke-width="5"/></g>
+    
+    <g id="bram-cheer-arm-right"><path d="M158 206 Q190 180 196 128" fill="none" stroke="#30343B" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/><path d="M158 206 Q190 180 196 128" fill="none" stroke="#ED873A" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/><circle cx="197" cy="122" r="15" fill="#F0C29A" stroke="#30343B" stroke-width="5"/></g>
+    <g id="bram-cheer-head">
+      <circle cx="110" cy="134" r="58" fill="#F0C29A" stroke="#30343B" stroke-width="5"/>
+      <path id="bram-cheer-beard" d="M53 142 Q66 178 94 172 Q110 180 126 172 Q154 178 167 142 Q166 200 110 202 Q54 200 53 142 Z" fill="#7A4E2D" stroke="#30343B" stroke-width="5" stroke-linejoin="round"/>
+      <ellipse cx="74" cy="146" rx="10" ry="6" fill="#E8907A" fill-opacity="0.55"/><ellipse cx="146" cy="146" rx="10" ry="6" fill="#E8907A" fill-opacity="0.55"/><path d="M80 128 Q90 116 100 128 M120 128 Q130 116 140 128" fill="none" stroke="#30343B" stroke-width="6" stroke-linecap="round"/><path d="M78 108 Q90 101 102 107 M118 107 Q130 101 142 108" fill="none" stroke="#7A4E2D" stroke-width="6" stroke-linecap="round"/><path d="M94 150 Q110 174 126 150 Z" fill="#30343B"/><path d="M101 160 Q110 166 119 160" fill="none" stroke="#E8907A" stroke-width="4" stroke-linecap="round"/>
+      <ellipse cx="110" cy="141" rx="9" ry="7" fill="#E8907A" stroke="#30343B" stroke-width="3"/>
+      <g id="bram-cheer-helmet">
+  <path d="M50 112 Q50 52 110 52 Q170 52 170 112 Z" fill="#FFFFFF" stroke="#30343B" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M110 54 V108" stroke="#30343B" stroke-opacity="0.25" stroke-width="8" stroke-linecap="round"/>
+  <rect x="40" y="104" width="140" height="16" rx="8" fill="#FFFFFF" stroke="#30343B" stroke-width="5"/><rect x="98" y="68" width="24" height="12" rx="4" fill="#ED873A"/></g>
+    </g>
+  </g></g>
+</svg>
