@@ -2,7 +2,7 @@
 
 A Dutch browser game in which children aged 4–6 do construction jobs that need maths. Vanilla JS + SVG, no build step.
 
-**Status:** Phase 3 – vertical slice "De materialenwagen". Step 1 (maths engine) done.
+**Status:** Phase 3 – vertical slice "De materialenwagen". Steps 1 (maths engine) and 2 (state, persistence, event bus) done.
 
 ## Run
 - Tests: `npm test`
